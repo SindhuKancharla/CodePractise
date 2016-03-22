@@ -1,0 +1,12 @@
+Phase: GetContent
+Input: body
+Options: control = appelt
+
+Rule: rule
+(  
+{body}
+)
+:r1
+-->  
+:r1.CONTENT={tag="Content",string=:r1@string}
+
